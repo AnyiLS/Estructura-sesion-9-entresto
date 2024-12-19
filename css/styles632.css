@@ -1,0 +1,313 @@
+@font-face {
+	font-family: volta_modern_display_75_bold;
+	src: url('../css/volta_modern_display_75_bold.otf');
+}
+
+
+body {
+	margin: 0;
+	height: 100vh;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: #000000;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.container .cover-image {
+	width: auto;
+	height: 100vh;
+}
+
+.start-button {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+}
+
+.boton-home {
+	position: absolute;
+	width: 6%;
+	height: 10%;
+	top: 4%;
+	right: 2%;
+}
+
+.boton-atras {
+	position: absolute;
+	width: 7%;
+    height: 12%;
+    top: 72%;
+    right: 10%;
+}
+
+.boton-next {
+	position: absolute;
+	width: 6%;
+	height: 10%;
+	top: 85%;
+	right: 2%;
+}
+
+.dowload {
+	position: absolute;
+	width: 43%;
+    height: 10%;
+    top: 55%;
+    left: 14%;
+	cursor: pointer;
+}
+
+.caja {
+	position: absolute;
+	width: 5%;
+    /* height: 10%; */
+    top: 19.7%;
+    left: 25.3%;
+	cursor: pointer;
+	animation-delay: 1.5s;
+}
+
+.caja img {
+	width: 100%;
+	height: 100%;
+}
+
+.caja1 {
+	position: absolute;
+	width: 19.2%;
+    /* height: 10%; */
+    top: 42.6%;
+    left: 25.5%;
+	cursor: pointer;
+	animation-delay: 2.5s;
+}
+
+.caja1 img {
+	width: 100%;
+	height: 100%;
+}
+
+.caja2 {
+	position: absolute;
+    width: 19.6%;
+    top: 43.4%;
+    left: 25.3%;
+	cursor: pointer;
+	animation-delay: 2.5s;
+}
+
+.caja2 img {
+	width: 100%;
+	height: 100%;
+}
+
+.caja3 {
+	position: absolute;
+	width: 11.9%;
+    top: 54.9%;
+    left: 25.3%;
+	cursor: pointer;
+	animation-delay: 2.5s;
+}
+
+.caja3 img {
+	width: 100%;
+	height: 100%;
+}
+
+.caja4 {
+	position: absolute;
+	width: 11.9%;
+    top: 55.1%;
+    left: 25.3%;
+	cursor: pointer;
+	animation-delay: 2.5s;
+}
+
+.caja4 img {
+	width: 100%;
+	height: 100%;
+}
+
+.caja5 {
+	position: absolute;
+	width: 12%;
+    top: 54.9%;
+    left: 13.4%;
+	cursor: pointer;
+	animation-delay: 1.5s;
+}
+
+.caja5 img {
+	width: 100%;
+	height: 100%;
+}
+
+.caja6 {
+	position: absolute;
+	width: 11.8%;
+    top: 54.8%;
+    left: 13.5%;
+	cursor: pointer;
+	animation-delay: 1.5s;
+}
+
+.caja6 img {
+	width: 100%;
+	height: 100%;
+}
+
+.caja7 {
+	position: absolute;
+	width: 19.7%;
+    top: 43.3%;
+    left: 5.7%;
+	cursor: pointer;
+	animation-delay: 1.5s;
+}
+
+.caja7 img {
+	width: 100%;
+	height: 100%;
+}
+
+.caja8 {
+	position: absolute;
+    width: 19%;
+    top: 42.8%;
+    left: 6.2%;
+	cursor: pointer;
+	animation-delay: 1.5s;
+}
+
+.caja8 img {
+	width: 100%;
+	height: 100%;
+}
+
+.caja9 {
+	position: absolute;
+    width: 5%;
+    top: 19.5%;
+    left: 20.3%;
+	cursor: pointer;
+}
+
+.caja9 img {
+	width: 100%;
+	height: 100%;
+}
+
+/* Definimos la animación para el resplandor */
+@keyframes pulseGlow {
+	0% {
+		transform: scale(1);
+		opacity: 0.7;
+	}
+	50% {
+		transform: scale(1.5);
+		opacity: 0.3;
+	}
+	100% {
+		transform: scale(1);
+		opacity: 0.7;
+	}
+}
+
+/* Responsive */
+@media (max-width: 1365px) and (min-height: 768px) {
+	.container {
+		width: 100vw;
+		height: auto;
+	}
+
+	.container .cover-image {
+		width: auto;
+		height: 100vh;
+	}
+}
+
+@media (max-height: 767px) {
+	.container {
+		width: auto;
+		height: 100vh;
+	}
+}
+
+@media (min-height: 625px) and (max-height: 1280px) and (max-width: 1024px) {
+	.container {
+		width: 100vw;
+		height: auto;
+	}
+
+	.container .cover-image {
+		width: 100vw;
+		height: auto;
+	}
+}
+
+@media (max-height: 624px) and (max-width: 767px) {
+	.container {
+		width: 100vw;
+		height: auto;
+	}
+
+	.container .cover-image {
+		width: 100vw;
+		height: auto;
+	}
+
+	.total {
+		position: absolute;
+		top: 39.2%;
+		right: 38%;
+		color: transparent;
+		background: linear-gradient(to top, #0761a6, #2280bc);
+		background-clip: text;
+		font-weight: 700;
+		font-family: volta_modern_display_75_bold;
+	}
+	
+	.intentos {
+		position: absolute;
+		top: 69%;
+		right: 17.6%;
+		font-weight: 700;
+		color: transparent;
+		background: linear-gradient(to top, #0761a6, #2280bc);
+		background-clip: text;
+		font-family: volta_modern_display_75_bold;
+	}
+}
+
+.total {
+	position: absolute;
+	top: 37.7%;
+    right: 23.1%;
+    color: transparent;
+    background: linear-gradient(to top, #ffffff, #ffffff);
+    background-clip: text;
+    font-weight: 700;
+	font-family: volta_modern_display_75_bold;
+}
+
+.intentos {
+	position: absolute;
+    top: 54%;
+    right: 17.3%;
+    font-weight: 700;
+    color: transparent;
+    background: linear-gradient(to top, #ffffff, #ffffff);
+    background-clip: text;
+	font-family: volta_modern_display_75_bold;
+}
