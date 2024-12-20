@@ -3,10 +3,12 @@ const handleGetTotal = () => {
     const total = localStorage.getItem("total"),
         container = document.querySelector('.container');
 
-    document.querySelector(".total").innerText = total
+    document.querySelector(".total").innerText = total;
+
+    // if(parseInt(total) < 10 ) document.querySelector('.total').style.right = '31%'
 
     document.querySelector('.total')
-        .style.fontSize = `${container.clientHeight / 20}px`
+        .style.fontSize = `${container.clientHeight / 17}px`
 
         document.querySelector('.intentos')
         .style.fontSize = `${container.clientHeight / 18.7}px`
